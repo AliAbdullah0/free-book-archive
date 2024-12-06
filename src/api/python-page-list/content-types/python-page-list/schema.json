@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "python_page_lists",
+  "info": {
+    "singularName": "python-page-list",
+    "pluralName": "python-page-lists",
+    "displayName": "PythonPageList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "PDFfile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
